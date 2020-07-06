@@ -1,0 +1,3 @@
+# Dagger playground [![Build Status](https://travis-ci.org/kibotu/Dagger-Multi-Module-Sample.svg?branch=master)](https://travis-ci.org/kibotu/Dagger-Multi-Module-Sample) [![Kotlin](https://img.shields.io/badge/kotlin-1.3.72-green.svg)](https://kotlinlang.org/) [![Gradle Version](https://img.shields.io/badge/gradle-6.5.0-green.svg)](https://docs.gradle.org/current/release-notes)
+
+show case of how a concrete library module implementation can be injected into app module, as well as app module implementation can be injected into library module.
