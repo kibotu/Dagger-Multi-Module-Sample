@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_implemented_yet">Not implemented yet.</string>
+    <string name="error_message_offline">You seem to be offline.</string>
+    <string name="retry">Retry</string>
+    <string name="generic_error_message">Something went wrong.</string>
+</resources>
