@@ -31,13 +31,9 @@ android {
         }
     }
 
-    // region view binding
-
-    viewBinding {
-        enabled = true
+    androidExtensions {
+        experimental = true
     }
-
-    // endregion
 
     // region signing configs
 
@@ -215,6 +211,12 @@ dependencies {
     androidTestImplementation androidTestLibs.junit
     androidTestImplementation androidTestLibs.espressoCore
     androidTestUtil androidTestUtils.orchestrator
+
+    // dagger
+    implementation libs.dagger
+    implementation libs.daggerAndroidSupport
+    kapt libs.daggerAndroidProcessor
+    kapt libs.daggerCompiler
 }
 
 configurations.all {

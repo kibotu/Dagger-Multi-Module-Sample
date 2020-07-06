@@ -104,4 +104,9 @@ dependencies {
     implementation libs.annotation
     implementation libs.material
 
+    // dagger
+    implementation libs.dagger
+    implementation libs.daggerAndroidSupport
+    kapt libs.daggerAndroidProcessor
+    kapt libs.daggerCompiler
 }
