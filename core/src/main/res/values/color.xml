@@ -62,8 +62,8 @@
     <!--color on surface (light)-->
     <color name="black_900">#000000</color>
 
-    <color name="black_light" >#2E3032</color>
-    <color name="black_dark" >#252628</color>
+    <color name="black_light">#2E3032</color>
+    <color name="black_dark">#252628</color>
 
     <color name="demo_primary">#0E3687</color>
     <color name="demo_primary_darker">#094897</color>

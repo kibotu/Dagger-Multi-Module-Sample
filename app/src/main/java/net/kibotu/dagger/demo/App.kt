@@ -2,7 +2,6 @@ package net.kibotu.dagger.demo
 
 import android.app.Application
 import net.kibotu.dagger.core.extensions.initStrictMode
-import net.danlew.android.joda.JodaTimeAndroid
 import net.kibotu.resourceextension.resBoolean
 import timber.log.Timber
 
@@ -20,8 +19,6 @@ class App : Application() {
         }
 
         initDagger()
-
-        JodaTimeAndroid.init(this)
     }
 
     /**

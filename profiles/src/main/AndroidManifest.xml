@@ -1,0 +1,10 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.kibotu.dagger.profiles">
+
+    <application>
+
+        <activity android:name=".ProfileActivity" />
+
+    </application>
+</manifest>

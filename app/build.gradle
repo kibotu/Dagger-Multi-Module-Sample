@@ -190,6 +190,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation project(path: ':core')
+    implementation project(path: ':profiles')
 
     debugImplementation libs.leakCanary
 
